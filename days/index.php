@@ -11,7 +11,7 @@
 
 	$data = array();
 	$compteur = 0;
-	while ( $compteur <= $total ) {
+	while ( $compteur < $total ) {
 		$timestamp = strtotime( '+'.$compteur.' day' );
 		$data[] = array(
 					'year' => date( 'Y', $timestamp ),
